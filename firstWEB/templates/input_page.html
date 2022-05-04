@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入参数页面</title>
+</head>
+<body>
+<form method="post" action="/calculate_result/">
+    {% csrf_token %}
+    <p>请输入json格式参数</p>
+    <p><input type="text" name="input_text" style="width: 50%;height: 200px"/></p>
+    <input type="submit" value="提交计算"/>
+
+</form>
+</body>
+</html>
