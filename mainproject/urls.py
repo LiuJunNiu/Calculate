@@ -16,13 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from firstWEB import views
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('index/',views.index),
-    path('calPage/',views.calPage),
-    path('calucate/',views.calucate),
-    path('input_page/',views.input_page),
-    path('calculate_result/',views.calculate_result),
-    path('navigation/',views.navigation),
-    path('summary/',views.summary),
+    path('admin', admin.site.urls),
+    path('index', views.index),
+    path('calPage', views.calPage),
+    path('calucate', views.calucate),
+    path('input_page', views.input_page),
+    path('calculate_result', views.calculate_result),
+    path('navigation', views.navigation),
+    path('summary', views.summary),
+    path('table1', views.table),
+    path('barChart', views.bar_chart),
+    # path('lineChart', views.line_chart),
+    path('chart', views.chart),
+    path('png1', views.img_show),
+
 ]

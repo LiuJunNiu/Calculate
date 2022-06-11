@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js"></script> -->
+  <!-- <link rel='stylesheet' type="text/css" href='./luckysheet/pluginsCss.css' />
+<link rel='stylesheet' type="text/css" href='./luckysheet/plugins.css' />
+<link rel='stylesheet' type="text/css" href='./luckysheet/luckysheet.css' />
+<link rel='stylesheet'type="text/css" href='./luckysheet/iconfont.css' />
+<script src="./luckysheet/plugin.js" type="text/javascript"></script>
+<script src="./luckysheet/luckysheet.umd.js" type="text/javascript"></script> -->
+
+    <!-- <title><%= webpackConfig.name %></title> -->
+    <style>
+    	html,body {
+    		height: 100%;
+    	}
+    </style>
+  </head>
+  <body>
+    <noscript>
+     <!--  <strong>We're sorry but <%= webpackConfig.name %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> -->
+    </noscript>
+    <div id="container" style="width:100%;height:100%"></div>
+    {{data_stream|safe}}
+    <!-- built files will be auto injected -->
+  </body>
+</html>

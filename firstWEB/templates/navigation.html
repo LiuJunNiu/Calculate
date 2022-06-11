@@ -35,10 +35,7 @@
     }
 
     function btnShow() {
-        axios({
-            method: 'POST',
-            url: '/table'
-        })
+        
     }
 
     function btnIndex() {
@@ -60,7 +57,7 @@
             <button onclick="btnIndex()">引导页</button>
      </div>
      <div class="mydiv">
-            <button onclick="btnShow()">图表组合</button>
+            <button onclick="location='/table'">图表组合</button>
      </div>
      <div class="mydiv">
             <button onclick="btnSelf()">自选组合</button>
